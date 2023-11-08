@@ -1,3 +1,5 @@
+package Coursera;
+
 import java.util.Scanner;
 public class LesVariables
 {

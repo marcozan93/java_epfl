@@ -1,3 +1,5 @@
+package Coursera;
+
 import java.lang.Math;
 import java.util.Scanner;
 public class Poly3
