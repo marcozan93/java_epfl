@@ -28,5 +28,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-### Not saving the input files ###
-.bin
+### Not saving all the input files with the .bin extension###
+#*.bin
