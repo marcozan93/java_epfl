@@ -7,7 +7,7 @@ public class Chessboard implements Image<ColorRGB> {
     private final ColorRGB color2;
     private final int width;
 
-    public static final Image<ColorRGB> IMAGE = new Chessboard(1, ColorRGB.WHITE, ColorRGB.BLACK);
+    public static final Image<ColorRGB> IMAGE = new Chessboard(4, ColorRGB.WHITE, ColorRGB.BLACK);
 
     public Chessboard(int width, ColorRGB color1, ColorRGB color2) {
         if (width <= 0)
@@ -30,7 +30,7 @@ public class Chessboard implements Image<ColorRGB> {
 
     @Override
     public ColorRGB apply(double x, double y) {
-        double r = floor(x*width) + floor(y*width);
+        int r = (int)floor(x*width) + (int)floor(y*width);
         return r%2 == 0 ? color1 : color2;
     }
 }
