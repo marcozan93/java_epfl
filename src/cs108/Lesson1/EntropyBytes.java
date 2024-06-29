@@ -1,4 +1,4 @@
-package cs108;
+package cs108.Lesson1;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.List;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
-public class Main {
+public class EntropyBytes {
 
     public static int [] byteFrequencies(String fileName) {
         // there are a max of 256 possible byte values
